@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.fContainer {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: grid;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    height: 72px;
+}
+
+.nav-kiri, .nav-kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-kiri>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.nav-kiri>li>a {
+    color: #71839B;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.notif, .setting, .login-button {
+    padding: 10px;
+}
+
+.notif, .setting {
+    margin-top: 12px;
+}
+
+.login-button>a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    background-color: #0C51FF;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deskripsi {
+    padding-left: 76px;
+    padding-right: 24px;
+}
+
+.deskripsi>h1 {
+    font-size: 57px;
+    margin-bottom: 35px;
+}
+
+.deskripsi>p {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.deskripsi>.empty-space-1 {
+    height: 81px;
+}
+
+.deskripsi>#button-main-1 {
+    width: 147px;
+    height: 40px;
+    background-color: #0C51FF;
+    border: 0px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.empty-space-2 {
+    height: 169px;
+}
+
+.main-content-2 {
+    height: 1024px;
+    background-color: #0C51FF;
+}
+
+.main-content-2 h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+
+.main-content-2>#why {
+    margin-top: 69px;
+    margin-left: 80px;
+    margin-bottom: 69px;
+}
+
+
+.reason-table {
+    width: 1024px; /* Lebar yang diinginkan */
+    height: 282px;
+    background-color: #2C67FF;
+    margin: 0 auto; /* Ini akan membuat elemen berada di tengah horizontal */
+    display: flex; /* Menggunakan flexbox untuk mengatur tata letak elemen di dalamnya */
+    justify-content: space-between; /* Membuat elemen di dalamnya terpisah dengan jarak yang sama */
+    align-items: center; /* Untuk mengatur elemen secara vertikal di tengah */
+    border-radius: 98px;
+    color: white;
+}
+
+.reason-1 {
+    margin-left: 160px;
+}
+
+.reason-3 {
+    margin-right: 160px;
+}
+
+.reason-table h3 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.reason-table p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.vertical-line {
+    border-left: 4px solid #ffffff; /* Warna dan ketebalan garis vertikal */
+    height: 139px;
+}
+
+.additional {
+    display: flex;
+    justify-content: space-around;
+}
+
+#rediscover {
+    margin-top: 89px;
+    margin-left: 40px;
+}
+
+.explanation>p {
+    font-size: 24px;
+    color: white;
+    margin-left: 40px;
+}
+
+.img-orang {
+    margin-top: 74px;
+    margin-right: 126px;
+}
+
+.temukan-minat>h2 {
+    text-align: center;
+    font-size: 57px;
+    font-weight: 600;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 266px;
+    height: 399px;
+    background-color: #4A7DFF;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card>h4, .card>p, .card>.button-simpan {
+    padding: 0 25px;
+}
+
+.card>h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 11px 0;
+    padding-top: 12px;
+}
+
+.card>img {
+    width: 266px;
+}
+
+.card>p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.button-simpan {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    border: 0px;
+    color: #0C51FF;
+    border-radius: 100px;
+    padding: 10px 24px !important;
+    margin-left: 25px;
+}
+
+.empty-space-3 {
+    height: 50px;
+}
+
+.additional-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 53px;
+}
+
+.explanation-2 {
+    text-align: end;
+}
+
+.explanation-2>h3 {
+    font-size: 50px;
+}
+
+.explanation-2>p {
+    font-size: 24px;
+}
+
+.explore {
+    background-color: #0C51FF;
+    border: 0px;
+    color: white;
+    width: 160px;
+    height: 77px;
+    border-radius: 100px;
+    margin-top: 38px;
+}
+
+.info-alumni {
+    background-color: #0C51FF;
+    color: white;
+}
+
+.info-alumni h3 {
+    font-size: 45px;
+    margin-left: 80px;
+}
+
+.tab-info-alumni {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 84px;
+}
+
+.tab {
+    background-color: #4076FF;
+    padding: 0 50px;
+    padding-bottom: 40px;
+    border-radius: 60px;
+}
+
+.info-button {
+    text-align: end;
+}
+
+.info-button>button {
+    width: 84px;
+    height: 40px;
+    background-color: white;
+    color: #0C51FF;
+    border: 0px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    margin-top: 40px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.footer-top {
+    background-color: #4076FF;
+    display: flex;
+    justify-content: space-around;
+    height: 527px;
+    color: white;
+    padding-top: 100px;
+}
+
+.learn-more>h4, .contact-us>h4, .social>h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.learn-more>ul, .contact-us>ul, .social>ul {
+    padding-left: 0;
+}
+
+.learn-more>ul>li, .contact-us>ul>li, .social>ul>li {
+    list-style-type: none;
+}
+
+.contact-us>ul>li>a>span {
+    font-weight: 600;
+}
+
+.social>ul>li {
+    text-align: center;
+}
+
+.learn-more>ul>li>a, .contact-us>ul>li>a, .social>ul>li>a {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    background-color: #4076FF;
+    color: white;
+    text-align: center;
+}
+
+.footer-bottom>hr {
+    width: 1073px;
+    justify-content: center;
+    border-top: 1px solid #ffffff;
+}

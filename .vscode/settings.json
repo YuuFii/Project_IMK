@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.port": 5501,
+    "vscord.app.name": "Visual Studio Code",
+    "vscord.status.details.text.editing": "Editing",
+    "vscord.status.details.text.debugging": "Debugging",
+    "vscord.status.details.text.viewing": "Viewing",
+    "vscord.status.state.text.editing": "Editing",
+    "vscord.status.state.text.viewing": "Viewing"
+}

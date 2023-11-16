@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamWeavers</title>
+    <link rel="stylesheet" href="assets/css/landing-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        /* Add responsive CSS here */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo img {
+            max-width: 100%;
+        }
+
+        .nav-kiri {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-kiri li {
+            margin-right: 20px;
+        }
+
+        .nav-kanan {
+            display: flex;
+            align-items: center;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .img-deskripsi img {
+            max-width: 100%;
+        }
+
+        /* Add responsive styles for other sections as needed */
+        @media (max-width: 768px) {
+            .wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-kiri {
+                margin-top: 20px;
+            }
+
+            .nav-kiri li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .nav-kanan {
+                margin-top: 20px;
+            }
+
+            .main-content {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Your HTML content remains the same -->
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="logo">
+                <a href="landing-page.html"><img src="assets/gambar/logo-biru.svg" alt=""></a>
+            </div>
+
+            <ul class="nav-kiri">
+                <li><a href="landing-page.html" class="active">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+
+            <div class="nav-kanan">
+                <div class="notif">
+                    <a href="#">
+                        <img src="assets/gambar/u_bell.svg" alt="">
+                    </a>
+                </div>
+    
+                <div class="setting">
+                    <a href="">
+                        <img src="assets/gambar/u_setting (1).svg" alt="">
+                    </a>
+                </div>
+    
+                <div class="login-button">
+                    <a href="">Login</a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="main-content">
+            <div class="deskripsi">
+                <h1>Bingung dengan masa depan karirmu?</h1>
+                <p>
+                    DreamWeavers menyediakan informasi dan<br> konsultasi karir dengan para alumni untuk<br> membantu mencerahkan masa depan karir anda
+                </p>
+                <div class="empty-space-1"></div>
+                <button id="button-main-1">Mulai Sekarang</button>
+            </div>
+            <div class="img-deskripsi">
+                <img src="assets/gambar/img-land-page.svg" alt="">
+            </div>
+        </div>
+
+        <div class="empty-space-2"></div>
+
+        <div class="main-content-2">
+            <h2 id="why">Why<br> DreamWeavers?</h2>
+            <div class="reason-table">
+                <div class="reason-1">
+                    <h3>500++</h3>
+                    <p>Informasi Karir</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="reason-2">
+                    <h3>1:1</h3>
+                    <p>Sesi dengan Alumni</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="reason-3">
+                    <h3>700++</h3>
+                    <p>Sumber Belajar</p>
+                </div>
+            </div>
+
+            <div class="additional">
+                <div class="explanation">
+                    <h2 id="rediscover">Rediscover<br>Yourself</h2>
+                    <p>
+                        Terhubung dengan industri dan alumni dari berbagai bidang,<br> eksplorasi minatmu dan temukan kembali dirimu bersama kami
+                    </p>
+                </div>
+                <div class="img-orang">
+                    <img src="assets/gambar/Group 3.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="temukan-minat">
+            <h2>Temukan Minatmu!</h2>
+            <div class="card-content">
+                <div class="card">
+                    <h4>Programmer</h4>
+                    <img src="assets/gambar/sample-img.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <button class="button-simpan">Simpan</button>
+                </div>
+                <div class="card">
+                    <h4>Programmer</h4>
+                    <img src="assets/gambar/sample-img.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <button class="button-simpan">Simpan</button>
+                </div>
+                <div class="card">
+                    <h4>Programmer</h4>
+                    <img src="assets/gambar/sample-img.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <button class="button-simpan">Simpan</button>
+                </div>
+                <div class="card">
+                    <h4>Programmer</h4>
+                    <img src="assets/gambar/sample-img.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <button class="button-simpan">Simpan</button>
+                </div>
+            </div>
+            <div class="empty-space-3"></div>
+            <div class="additional-2">
+                <img src="assets/gambar/orang-cartoon.svg" alt="">
+                <div class="explanation-2">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button class="explore">Explore</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-alumni">
+            <h3>Terkoneksi dengan Alumni</h3>
+            <div class="tab-info-alumni">
+                <div class="tab">
+                    <h3>Forum Group</h3>
+                    <p>Bergabung dalam grup dan konsultasikan karirmu dengan para alumni</p>
+                    <div class="info-button">
+                        <button>Mulai</button>
+                    </div>
+                </div>
+                <div class="tab">
+                    <h3>Forum Pribadi</h3>
+                    <p>Bergabung dengan obrolan pribadi dan konsultasikan karirmu dengan para alumni</p>
+                    <div class="info-button">
+                        <button>Mulai</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-top">
+            <div class="logo-footer">
+                <img src="assets/gambar/Logo LIFT.svg" alt="">
+            </div>
+            <div class="learn-more">
+                <h4>Learn More</h4>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Eksplorasi Karir</a></li>
+                    <li><a href="">Sumber Belajar</a></li>
+                    <li><a href="">Tes Minat & Bakat</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-us">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="">Hotel Reservation: <span>123-456-7890</span></a></li>
+                    <li><a href="">Ticket Office: <span>123-456-7890</span></a></li>
+                </ul>
+            </div>
+
+            <div class="social">
+                <h4>Social</h4>
+                <ul>
+                    <li>
+                        <a href=""><img src="assets/gambar/instagram-logo.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/gambar/Path.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/gambar/bxl-facebook.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/gambar/youtube-logo.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <footer class="footer-bottom">
+            <hr>
+            <p>&copy; 2019 Lift Media | All Rights Reserved</p>
+        </footer>
+        
+    </div>
+</body>
+</html>

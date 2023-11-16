@@ -1,0 +1,445 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fContainer {
+    width: 100%;
+    height: auto;
+}
+
+/* -- HALAMAN LOGIN -- */
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.subcontainer-login {
+    color: white;
+    background-color: #3A00E5;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subcontainer-login h1,
+.subcontainer-login p {
+    margin-left: 50px;
+}
+
+.subcontainer-login h1 {
+    font-size: 45px;
+    margin: 0 50px 00;
+}
+
+.subcontainer-login p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.subcontainer-login img {
+    margin: 50px auto 0;
+    max-width: 100%;
+}
+
+.form-login {
+    margin: auto;
+}
+
+.form-login h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-login form input {
+    margin: 15px 0;
+    width: 100%;
+}
+/* -- HALAMAN LOGIN - END -- */
+
+/* -- HALAMAN PROFIL SAYA -- */
+.profile-container {
+    display: flex;
+}
+
+.profile-sidebar {
+    /* background-color: #71839B; */
+    flex: 2;
+    margin: 10px 20px;
+    max-width: 288px;
+}
+
+.profile-sidebar ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.profile-sidebar ul li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0;
+    color: #000;
+}
+
+.profile-sidebar ul li a:hover {
+    color: #c1c1c1;
+}
+
+.profile-sidebar ul li a span {
+    margin-left: 10px;
+}
+
+#keluar-akun {
+    margin-left: 15px;
+}
+
+.sidebar-top {
+    text-align: center;
+    background-color: #4076ff;
+    padding: 30px 20px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.profile-main {
+    flex: 5;
+    margin-left: 40px;
+}
+
+.profile-header>img, .sidebar-top>img {
+    width: 80px;
+}
+
+.profile-header {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.profile-header-name {
+    margin-left: 30px;
+}
+
+.profile-header-name h2, p {
+    margin: 5px 0;
+}
+
+.kolom-kiri, .kolom-kanan {
+    padding: 17px 50px;
+}
+
+.profile-keterangan {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-keterangan>a {
+    background-color: #0C51FF;
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin: 40px;
+    align-self: flex-end;
+    border-radius: 10px;
+}
+
+.profile-keterangan>a:hover {
+    background-color: #4f81ff;
+}
+/* -- HALAMAN PROFIL SAYA - END -- */
+
+/* -- HALAMAN FORUM -- */
+.forum-container {
+    background-color: #eef1ff;
+    display: flex;
+}
+
+.sidebar-forum {
+    flex: 2;
+    max-width: 30%;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.main-forum {
+    flex: 5;
+}
+
+.empty-space-forum {
+    height: 50px;
+}
+
+.tombol-diskusi-baru {
+    background-color: #0C51FF;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.container-tab-diskusi {
+    color: #000;
+}
+
+.buka-tab-diskusi {
+    margin: 30px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buka-tab-diskusi>span {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.sidebar-forum>hr {
+    width: 80%;
+}
+
+.container-search-kontak input[type=text]{
+    max-width:400px;
+    height:26px;
+    border-radius:25px 0 0 25px;
+    border: none;
+    padding: 1.2px 0 1.2px 10px;
+    background-color: #f0f0f0;
+}  
+
+.container-search-kontak>form {
+    display: flex;
+    justify-content: center;
+}
+     
+.container-search-kontak{
+    /* float:right; */
+    margin:7px;
+}
+     
+.container-search-kontak button{
+    background-color: #f0f0f0;
+    color: #0C51FF;
+    /* float: right; */
+    padding: 5px 15px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+}
+
+/* .container-search-kontak>form {
+    position: relative;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.container-search-kontak input{
+    position: absolute;
+    right: 25px;
+    height: 100%;
+    width: 80%;
+    border-radius: 25px;
+    background: #e6e6e6;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.container-search-kontak button{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    width: 50px;
+    background: #fff;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    color: lightslategray;
+  } */
+
+  .list-kontak {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kontak {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+  }
+
+.kontak>span {
+    margin-left: 10px;
+    color: #000;
+    font-weight: 700;
+}
+
+.main-forum {
+    margin-left: 30px;
+}
+
+.header-forum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.search-forum input[type=text]{
+    max-width:400px;
+    height:25px;
+    border-radius:25px 0 0 25px;
+    border: none;
+    padding: 1.2px 0 1.2px 10px;
+}
+     
+.search-forum{
+    float:right;
+    margin:7px;
+}
+     
+.search-forum button{
+    background-color: #fff;
+    color: #0C51FF;
+    float: right;
+    padding: 5px 15px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+}
+
+.content-forum-diskusi {
+    margin: 30px 0;
+}
+
+.box-isi-diskusi {
+    margin: 0 20px ;
+    background-color: #fff;
+    padding: 10px 30px 20px;
+    border-radius: 15px;
+}
+/* -- HALAMAN FORUM - END -- */
+
+
+/* -- NAVIGATION BAR -- */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    height: 72px;
+}
+
+.nav-kiri, .nav-kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-kiri>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.nav-kiri>li>a {
+    color: #71839B;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-kiri>li>a:hover {
+    text-decoration: underline;
+}
+
+.notif, .setting, .login-button {
+    padding: 10px;
+}
+
+.notif, .setting {
+    margin-top: 12px;
+}
+
+.login-button>a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    background-color: #0C51FF;
+    padding: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 4px;
+}
+/* -- NAVIGATION BAR - END -- */
+
+/* -- FOOTER -- */
+footer {
+    background-color: #4076ff;
+    padding: 30px 20px 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.learn-more>ul, .contact-us>ul, .social>ul {
+    padding-left: 0;
+    line-height: 30px;
+}
+
+.learn-more>ul>li, .contact-us>ul>li, .social>ul>li {
+    list-style-type: none;
+}
+
+.learn-more>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.learn-more>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.contact-us>ul>li>span {
+    font-weight: bold;
+}
+
+footer>hr {
+    width: 80%;
+}
+
+footer>p {
+    color: white;
+    text-align: center;
+}
+
+.login-button>a:hover {
+    background-color: #4f81ff;
+}
+/* -- FOOTER - END -- */
